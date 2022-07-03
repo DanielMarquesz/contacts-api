@@ -1,0 +1,21 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "semi": [2, "never"],
+        "comma-spacing": [2, {"before": false, "after": true}],
+        "quotes": [2, "single", "avoid-escape"],
+        "indent": ["error", 2]
+        
+    }
+}
